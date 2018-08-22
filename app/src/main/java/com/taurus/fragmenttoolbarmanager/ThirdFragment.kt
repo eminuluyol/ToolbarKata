@@ -8,6 +8,8 @@ import com.taurus.fragmenttoolbarmanager.toolbar.FragmentToolbar
 
 class ThirdFragment : BaseFragment() {
 
+    //TODO:10- First add `onHomePressedDefaultAction` to your FragmentToolbar then you will see that UI is fucked up. Just hack it (Pay attention I didn't say fix it)
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         super.onCreateView(inflater, container, savedInstanceState)
         return inflater.inflate(R.layout.fragment_third, container, false)

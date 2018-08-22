@@ -12,6 +12,13 @@ import kotlinx.android.synthetic.main.fragment_first.*
 
 class FirstFragment : BaseFragment() {
 
+    //TODO:2- Have you already tried to scroll the view up completely? If no then what are you waiting for? You are in a CodeKata it is not a dream... Ok, let's get back to the topic the Tabbar is overlapping the Toolbar Title, right? How can we fix it then?
+    //TODO:Hint.4- https://material.io/design/components/tabs.html#spec (Size matters (blink emoji here))
+
+    //TODO:3- Not the best design but how one can hate Pixar characters. What about switching to 3rd Fragment and coming back to the first screen. Oopss seems like we have a problem. How can we fix this empty blank screen?
+    //TODO:Hint.3-  https://developer.android.com/reference/android/app/FragmentManager
+    //TODO If you liked the image and jealous of a rat then this link may help you https://androidmakers.fr/
+
     private val tabListener = object : TabLayout.OnTabSelectedListener {
         override fun onTabReselected(tab: TabLayout.Tab) {
             viewPager.currentItem = tab.position

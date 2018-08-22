@@ -7,6 +7,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
 
+    //TODO:1- Are you ready to start? You only see an empty black screen right? Let's show the FirstFragment when we initially start the app
+    //TODO:Hint.1- Look at the ActivityExtension class
+
     private val bottomBarSelectedItemListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_first_fragment -> {
