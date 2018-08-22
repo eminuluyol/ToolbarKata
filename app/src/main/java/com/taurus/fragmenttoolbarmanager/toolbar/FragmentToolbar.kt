@@ -44,19 +44,6 @@ class FragmentToolbar constructor(
             this.menuClicks.addAll(menuClicks)
         }
 
-        fun withBackgroundColor(@ColorRes colorId: Int) = apply {
-            this.colorId = colorId
-        }
-
-        fun onHomePressedDefaultAction() = apply {
-            this.isOnHomePressedDefaultAction = true
-        }
-
-        fun withCustomHomeAsUpIndicator(@DrawableRes drawableRes: Int) = apply {
-            this.customHomeAsUpIndicator = drawableRes
-            this.isOnHomePressedDefaultAction = false
-        }
-
         fun build() = FragmentToolbar(
                 resId,
                 title,

@@ -35,9 +35,5 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         bottomBarNavigationView.setOnNavigationItemSelectedListener(bottomBarSelectedItemListener)
-        fragmentTransaction {
-            replace(R.id.fragmentContainer, FirstFragment())
-        }
-
     }
 }

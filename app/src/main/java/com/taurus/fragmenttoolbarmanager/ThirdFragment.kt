@@ -17,7 +17,6 @@ class ThirdFragment : BaseFragment() {
         return FragmentToolbar.Builder()
                 .withId(R.id.toolbar3)
                 .withTitle(R.string.title_third_fragment)
-                .withBackgroundColor(R.color.toolbarTransparent)
                 .build()
     }
 }

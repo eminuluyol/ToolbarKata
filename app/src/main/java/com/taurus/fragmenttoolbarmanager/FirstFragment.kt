@@ -46,7 +46,7 @@ class FirstFragment : BaseFragment() {
     }
 
     private fun setupViewPager(viewPager: ViewPager) {
-        val adapter = ViewPagerAdapter(childFragmentManager)
+        val adapter = ViewPagerAdapter(activity!!.supportFragmentManager)
         adapter.addFragment(DummyFragment(), "Dummy1")
         adapter.addFragment(DummyFragment(), "Dummy2")
         adapter.addFragment(DummyFragment(), "Dummy3")
